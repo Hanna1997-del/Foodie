@@ -10,7 +10,7 @@ interface HeroProps {
  
 const Hero: React.FC<HeroProps> = () => {
     return ( 
-        <section className="max-w[1440px] mt-10 h-full lg:h-[90vh] lg:flex ">
+        <section className="max-w[1440px] mt-24 h-full lg:h-[90vh] lg:flex   ">
             {/* left side */}
             <div className="lg:w-1/2 w-full">
                <div className="flex rounded-full items-center bg-pink-100 w-[200px] px-2  py-2 lg:ml-16 ml-5">

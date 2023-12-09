@@ -1,6 +1,7 @@
 
 
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
+import { filteritems } from "../../Data/data";
 
 interface FilterProps {
     id: number;
@@ -9,6 +10,8 @@ interface FilterProps {
 }
  
 const Filter: React.FC<FilterProps> = ({id,title,icon}) => {
+   
+
     return ( 
         <div>
             <div className="">

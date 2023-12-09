@@ -10,6 +10,9 @@ interface MenuProps {
 }
 
 const Menu: React.FC<MenuProps> = () => {
+   
+
+     
     return ( 
         <section className="bg-white h-full mt-5">
             <h5 className="text-red-500 text-center">Our Menu</h5>

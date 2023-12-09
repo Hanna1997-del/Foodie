@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import AppRoot from '@/components/AppRoot'
 
 
 
@@ -21,10 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <Navbar/>
+      <AppRoot>
+      <Navbar/>
         <main className=' relative overflow-hidden'>{children}</main>
 
         <Footer/>
+      </AppRoot>
       
         </body>
     </html>

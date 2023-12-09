@@ -19,8 +19,8 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = () => {
     const[open,setOpen] = useState(false)
     return ( 
-        <nav className=" max-w-[1440px]  ">
-          <div className="flex w-full h-20 justify-around items-center">
+        <nav className=" max-w-[1440px]   ">
+          <div className="flex w-full h-20 justify-around items-center fixed top-0 z-20 left-0 bg-fuchsia-50 shadow-lg">
           <h1 className="text-3xl font-bold text-black">F<span className="text-red-500">OO</span>D</h1>
             <div className="" >
                 <ul className=" hidden lg:flex  gap-20 text-gray-500 ">
